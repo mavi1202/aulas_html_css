@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Básico</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu email" required>
+        </div>
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" placeholder="Digite sua idade">
+        </div>
+        <div>
+            <label for="color">Selecione uma cor:</label>
+            <input type="color" id="color"  required>
+        </div>
+
+        <div>
+            <p>você gosta de qual fruta?</p>
+
+            <div>
+                <input type="radio" id="maça" name="maçã">
+                <label for="maça">Maçã</label>
+               
+                
+            </div>
+        </div>
+        <!-- input radio -->
+        <div>
+            <input type="radio" id="uva" name="uva">
+            <label for="uva">Uva</label>
+            
+        </div>
+        <div>
+        <input type="radio" id="pera" name="pera">
+        <label for="pera">pera</label>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+    
+</body>
+</html>
