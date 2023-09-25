@@ -1,0 +1,21 @@
+#titulo-h2{
+    color:rgb(3, 139, 250);
+}
+
+.fundo-amarelo{
+    background: yellow;
+}
+
+.texto-vermelho{
+    color:red;
+
+}
+p{
+    color:rgb(29, 74, 172);
+}
+ h2{
+    color:rgb(45, 141, 141);
+ }
+
+/* CSS- cascata  */
+
