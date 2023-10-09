@@ -1,0 +1,16 @@
+.caixa_width{
+    border:2px solid rgb(156, 52, 52);
+
+    width: 400px;
+}
+.imagem_width{
+    width: 200px;
+}
+
+.caixa_height{
+    border:1px dashed #392061;
+
+    height:100px;
+    width:100px;
+
+}
